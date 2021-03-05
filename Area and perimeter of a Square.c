@@ -1,8 +1,10 @@
-void main()
+                                    /** C program to calculate area and perimeter of a square**/
+#include<stdio.h>
+main()
 {
-    float a;
+    float side;
     printf("Side = ");
-    scanf("%f",&a);
-    printf("Area = %.2f\n",a*a);
-    printf("Perimeter = %.2f",4*a);
+    scanf("%f",&side);
+    printf("Area = %.2f\n",side*side);
+    printf("Perimeter = %.2f",4*side);
 }
