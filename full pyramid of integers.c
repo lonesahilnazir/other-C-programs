@@ -1,4 +1,4 @@
-                                                            /**C program to print full pyramid of asterisks**/
+                                                            /**C program to print full pyramid of integers**/
 #include<stdio.h>
 main()
 {
@@ -13,7 +13,7 @@ main()
         }
         for(j=1;j<=i;j++)
         {
-            printf("* ");
+            printf("%d ",j);
         }
         printf("\n");
     }
