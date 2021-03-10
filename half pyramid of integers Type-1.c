@@ -1,4 +1,4 @@
-                                                            /**C program to print half pyramid of integers**/
+                                                            /**C program to print half pyramid of integers Type-1**/
 #include<stdio.h>
 main()
 {
