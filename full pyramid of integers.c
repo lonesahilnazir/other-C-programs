@@ -5,9 +5,9 @@ main()
     int row,i,j,s;        //s is for spaces
     printf("Enter number of rows: ");
     scanf("%d",&row);
-    for(i=1;i<=row;i=i+2)
+    for(i=1;i<=2*row-1;i=i+2)
     {
-        for(s=row-i;s>=1;s=s-2)
+        for(s=2*row-i;s>=1;s=s-2)
         {
             printf("  ");
         }
