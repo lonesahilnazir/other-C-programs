@@ -16,3 +16,6 @@ main()
         fahr = fahr + step;
     }
 }
+
+        /*this program is taken from 'C programming language' by "Kernighan & Ritchie"
+        **I just changed it to print a heading above the table as a exercise (1-3)**/
